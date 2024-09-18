@@ -2,29 +2,27 @@
     "packages": [
         {
             "name": "curl/curl",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "version": "2.x-dev",
+            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-mod/curl.git",
-                "reference": "f207b53643ad176448c6e9644ee91d5557b1c32c"
+                "reference": "a8e98b86afd3978c860a41b5377c407a4ad5d83c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-mod/curl/zipball/f207b53643ad176448c6e9644ee91d5557b1c32c",
-                "reference": "f207b53643ad176448c6e9644ee91d5557b1c32c",
+                "url": "https://api.github.com/repos/php-mod/curl/zipball/a8e98b86afd3978c860a41b5377c407a4ad5d83c",
+                "reference": "a8e98b86afd3978c860a41b5377c407a4ad5d83c",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "ext-json": "*",
-                "php": "^8.0"
+                "php": "^5.6 | ^7.0 | ^8.0"
             },
             "require-dev": {
                 "yoast/phpunit-polyfills": "^0.2.0"
             },
-            "time": "2024-08-24T05:37:26+00:00",
-            "default-branch": true,
+            "time": "2023-10-31T06:56:30+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
