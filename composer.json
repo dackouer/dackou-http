@@ -1,0 +1,20 @@
+{
+    "name": "dackou/http",
+    "description": "dackou php curl",
+    "type": "l",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dackou\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dackou"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "curl/curl": "dev-master"
+    }
+}
